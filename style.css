@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    height: 2000px;
+}
+header{
+    background: url('getty_583734066_335273.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin-left: 400px;
+    margin-top: 20px;
+}
+header nav ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 1px 10px;
+    border-radius: 20px;
+}
+header nav ul li a:hover{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    background-color: brown;
+    padding: 1px 10px;
+    display: flex;
+    align-items: center;
+}
+.writes{
+    margin-top: 100px;
+}
+.writes h2{
+    font-size: 50px;
+}
+.big{
+    font-size: 20px;
+}
+.bton{
+    background-color: brown;
+    color: white;
+    border-radius: 20px;
+    padding: 1px 20px;
+    border: none;
+}
+.cardss{
+    margin: 40px ;
+}
+.cardss p{
+    text-align: center;
+}
+.btnn{
+justify-content: center;
+    border: 5px;
+    border-radius: 20px;
+    color: black;
+    padding: 1px 20px;
+    background-color: white;
+    text-decoration: none;
+}
+.btnn:hover{
+    background-color: brown;
+    color: white;
+    border-radius: 20px;
+    padding: 1px 20px;
+    text-decoration: none;
+    border: none;
+}
